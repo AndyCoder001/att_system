@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    padding: 10px;
+    background-color: aqua;
+}
+.navbar .navlinks{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .navlinks:hover{
+    background-color: white;
+    color: rgb(255, 99, 99);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.navbar button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: red;
+}
+.navbar button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(255, 99, 99);
+}
+.logindiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logindiv form{
+    height: 25vh;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(255, 99, 99);
+    box-shadow: 2px solid black;
+}
+.logindiv form h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.passwordlogin button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: red;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.passwordlogin button:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: rgb(255, 99, 99);
+    cursor: pointer;
+}
+.passwordlogin input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Center align */
+    background-color: #f7f7f7; /* Light Background */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+table thead {
+    background-color: black; /* Dark Lavender */
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #6e6e6e;
+}
+
+table th {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ececec; /* Slightly darker row */
+}
+
+table tbody tr:hover {
+    background-color: #d3d3d3; /* Light gray hover effect */
+    color: #4a4e69; /* Accent text color on hover */
+}
+
+table td {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    table, table thead, table tbody, table th, table td, table tr {
+        display: block;
+        width: 100%;
+    }
+    
+    table tr {
+        margin-bottom: 10px;
+    }
+    
+    table td {
+        text-align: right;
+        padding: 10px;
+        position: relative;
+    }
+    
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #4a4e69;
+    }
+}
+
+
+/* Container Styling */
+.scanpage {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light Background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading Styling */
+.scanpage h2 {
+    font-size: 1.8em;
+    color: #4a4e69; /* Dark Lavender */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+.scanpage form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label Styling */
+.scanpage form label {
+    font-size: 1em;
+    color: #4a4e69;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input and Select Styling */
+.scanpage form input[type="text"], form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.scanpage form input[type="text"]:focus, form select:focus {
+    border-color: #4a4e69; /* Dark Lavender */
+    outline: none;
+}
+
+/* Button Styling */
+.scanpage form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #4a4e69; /* Dark Lavender */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scanpage form button:hover {
+    background-color: #383b4a; /* Darker shade on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .scanpage {
+        padding: 15px;
+    }
+    
+    .scanpage h2 {
+        font-size: 1.6em;
+    }
+    
+    .scanpage form button {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
