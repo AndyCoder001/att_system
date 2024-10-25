@@ -1,26 +1,3 @@
-// import React, { useContext } from 'react';
-// import { AppContext } from '../App';
-
-// function EntriesPage() {
-//   const { entries } = useContext(AppContext);
-
-//   return (
-//     <div>
-//       <h2>Entries</h2>
-//       <ul>
-//         {entries.map((entry, index) => (
-//           <li key={index}>
-//             IP: {entry.ipAddress} | Timestamp: {entry.timestamp}
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default EntriesPage;
-
-
 import React, { useContext } from 'react';
 import { AppContext } from '../App';
 import './styles.css';

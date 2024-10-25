@@ -6,18 +6,16 @@ function ScanPage() {
   const { entries, setEntries } = useContext(AppContext);
   const [name, setName] = useState('');
   const [designation, setDesignation] = useState('');
-  const [attendance, setAttendance] = useState('Present'); // Default value
+  const [attendance, setAttendance] = useState('Present'); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const ipAddress = window.location.hostname; // Placeholder for the user's IP
+    const ipAddress = window.location.hostname;
     const timestamp = new Date().toISOString();
 
-    // Add the new entry
     setEntries([...entries, { name, designation, attendance, ipAddress, timestamp }]);
     alert('Attendance recorded successfully!');
 
-    // Clear the form
     setName('');
     setDesignation('');
     setAttendance('Present');

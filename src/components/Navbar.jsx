@@ -1,16 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// function Navbar() {
-//   return (
-//     <nav>
-//       <Link to="/qr">Show QR Code</Link>
-//       <Link to="/entries">View Entries</Link>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AppContext } from '../App';

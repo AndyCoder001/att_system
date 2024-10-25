@@ -74,15 +74,15 @@ table {
     border-collapse: collapse;
     font-family: 'Arial', sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 0 auto; /* Center align */
-    background-color: #f7f7f7; /* Light Background */
+    margin: 0 auto; 
+    background-color: #f7f7f7; 
     border-radius: 10px;
     overflow: hidden;
     margin-top: 10px;
 }
 
 table thead {
-    background-color: black; /* Dark Lavender */
+    background-color: black; 
     color: #ffffff;
 }
 
@@ -100,7 +100,7 @@ table th {
 }
 
 table tbody tr:nth-child(even) {
-    background-color: #ececec; /* Slightly darker row */
+    background-color: #ececec; 
 }
 
 table tbody tr:hover {
