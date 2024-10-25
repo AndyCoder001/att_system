@@ -12,7 +12,7 @@ const QrCodeGenerator = () => {
 
   useEffect(() => {
     // Set the desired base URL
-    const baseUrl = 'https://att-system.vercel.app/scan';
+    const baseUrl = 'https://att-system.netlify.app/scan';
     
     // Generate a unique URL with random query string
     const uniqueUrl = `${baseUrl}?id=${generateRandomString()}`;
