@@ -27,6 +27,7 @@ function Navbar() {
     <nav className='navbar'>
       <Link className='navlinks'  to="/qr">Show QR Code</Link>
       <Link className='navlinks' to="/entries">View Entries</Link>
+      <Link className='navlinks' to="/scan">Mark attendance</Link>
       <button onClick={handleLogout} style={{ marginLeft: '20px' }}>
         Logout
       </button>
